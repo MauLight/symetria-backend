@@ -1,6 +1,6 @@
 {
   "name": "symetria-backend",
-  "version": "1.0.1",
+  "version": "1.0.5",
   "description": "symetria back-end template",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
     "type": "git",
     "url": "git+https://github.com/MauLight/symetria-backend.git"
   },
-  "bin": "symetria-back",
+  "bin": {
+    "symetria-backend": "./bin/cli.js"
+  },
   "keywords": [
     "symetria",
     "backend"
@@ -33,7 +35,7 @@
     "jsonwebtoken": "^9.0.2",
     "mongodb-memory-server": "^10.1.2",
     "mongoose": "^8.8.2",
-    "ora": "^8.1.1"
+    "ora": "5.4.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
