@@ -1,6 +1,6 @@
 {
   "name": "symetria-backend",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "symetria back-end template",
   "main": "index.js",
   "scripts": {
