@@ -12,6 +12,7 @@
     "type": "git",
     "url": "git+https://github.com/MauLight/symetria-backend.git"
   },
+  "bin": "symetria-back",
   "keywords": [
     "symetria",
     "backend"
@@ -25,12 +26,14 @@
   "dependencies": {
     "bcrypt": "^5.1.1",
     "cors": "^2.8.5",
+    "degit": "^2.8.4",
     "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "express-ws": "^5.0.2",
     "jsonwebtoken": "^9.0.2",
     "mongodb-memory-server": "^10.1.2",
-    "mongoose": "^8.8.2"
+    "mongoose": "^8.8.2",
+    "ora": "^8.1.1"
   },
   "devDependencies": {
     "@eslint/js": "^9.15.0",
